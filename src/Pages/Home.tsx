@@ -1,0 +1,12 @@
+import { PostList } from "../Components/PostList"
+
+export const Home = () => {
+    return (
+        <div>
+            <h2> Recent Posts</h2>
+            <div>
+                <PostList/>
+            </div>
+        </div>
+    )
+}
